@@ -27,7 +27,7 @@ import {
 } from "../shared/ui"
 import { UserInfoModal } from "../widgets/ui/UserInfoModal"
 import { highlightText } from "../utils"
-import { usePostFetch } from "../hooks/usePostFetch"
+import { usePostFetch } from "../hooks/usePostListFetch"
 
 const PostsManager = () => {
   const navigate = useNavigate()

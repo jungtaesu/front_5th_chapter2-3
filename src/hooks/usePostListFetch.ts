@@ -14,7 +14,6 @@ export const usePostFetch = ({ queryParams }:Props) => {
     const [limit, setLimit] = useState(parseInt(queryParams.get("limit") || "10"))
     const [searchQuery, setSearchQuery] = useState(queryParams.get("search") || "")
     const [loading, setLoading] = useState(false)
-    console.log("usePostFetch", queryParams)
 
     const fetchPosts = () => {
         setLoading(true)
